@@ -7,13 +7,22 @@
 
 import SwiftUI
 
+// SEE: https://sarunw.com/posts/swiftui-custom-font/
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            VStack {
+                Text("Hello, world!")
+                    .font(.custom("Silkscreen-Regular", size: 46))
+
+                Text("Hello, world!")
+                    .font(.custom("Silkscreen-Bold", size: 46))
+
+                Text("F1 racing")
+                    .font(.custom("Formula1", size: 46))
+
+                
+            }
         }
         .padding()
     }

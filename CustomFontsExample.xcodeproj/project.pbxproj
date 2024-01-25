@@ -11,6 +11,11 @@
 		81A926FC2B61DE7C0050A3AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A926FB2B61DE7C0050A3AC /* ContentView.swift */; };
 		81A926FE2B61DE7D0050A3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A926FD2B61DE7D0050A3AC /* Assets.xcassets */; };
 		81A927012B61DE7D0050A3AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A927002B61DE7D0050A3AC /* Preview Assets.xcassets */; };
+		81A927092B61DEC20050A3AC /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A927072B61DEC20050A3AC /* Silkscreen-Bold.ttf */; };
+		81A9270A2B61DEC20050A3AC /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A927082B61DEC20050A3AC /* Silkscreen-Regular.ttf */; };
+		81A9270D2B61F8460050A3AC /* Formula1-Regular-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A9270C2B61F8460050A3AC /* Formula1-Regular-1.ttf */; };
+		81A9270F2B61F8CC0050A3AC /* Formula1-Bold_web.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A9270E2B61F8CC0050A3AC /* Formula1-Bold_web.ttf */; };
+		81A927112B61F9DE0050A3AC /* good times rg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81A927102B61F9DE0050A3AC /* good times rg.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		81A926FB2B61DE7C0050A3AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81A926FD2B61DE7D0050A3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A927002B61DE7D0050A3AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81A927072B61DEC20050A3AC /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		81A927082B61DEC20050A3AC /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
+		81A9270B2B61DEE00050A3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81A9270C2B61F8460050A3AC /* Formula1-Regular-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Regular-1.ttf"; sourceTree = "<group>"; };
+		81A9270E2B61F8CC0050A3AC /* Formula1-Bold_web.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Bold_web.ttf"; sourceTree = "<group>"; };
+		81A927102B61F9DE0050A3AC /* good times rg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "good times rg.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		81A926F82B61DE7C0050A3AC /* CustomFontsExample */ = {
 			isa = PBXGroup;
 			children = (
+				81A9270B2B61DEE00050A3AC /* Info.plist */,
 				81A926F92B61DE7C0050A3AC /* CustomFontsExampleApp.swift */,
 				81A926FB2B61DE7C0050A3AC /* ContentView.swift */,
+				81A927072B61DEC20050A3AC /* Silkscreen-Bold.ttf */,
+				81A927082B61DEC20050A3AC /* Silkscreen-Regular.ttf */,
+				81A9270C2B61F8460050A3AC /* Formula1-Regular-1.ttf */,
+				81A9270E2B61F8CC0050A3AC /* Formula1-Bold_web.ttf */,
+				81A927102B61F9DE0050A3AC /* good times rg.otf */,
 				81A926FD2B61DE7D0050A3AC /* Assets.xcassets */,
 				81A926FF2B61DE7D0050A3AC /* Preview Content */,
 			);
@@ -125,8 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A9270A2B61DEC20050A3AC /* Silkscreen-Regular.ttf in Resources */,
+				81A9270D2B61F8460050A3AC /* Formula1-Regular-1.ttf in Resources */,
 				81A927012B61DE7D0050A3AC /* Preview Assets.xcassets in Resources */,
+				81A927092B61DEC20050A3AC /* Silkscreen-Bold.ttf in Resources */,
 				81A926FE2B61DE7D0050A3AC /* Assets.xcassets in Resources */,
+				81A9270F2B61F8CC0050A3AC /* Formula1-Bold_web.ttf in Resources */,
+				81A927112B61F9DE0050A3AC /* good times rg.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,7 @@
 				DEVELOPMENT_TEAM = C7DL9Y9A7R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontsExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +327,7 @@
 				DEVELOPMENT_TEAM = C7DL9Y9A7R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontsExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
